@@ -1,0 +1,29 @@
+Gcd(m,n) = gcd(n, m mod n)
+Menentukan gcd(60, 24)
+gcd(60, 24) =  gcd(24,12) = gcd(12,0) = 12
+
+Algoritma
+Step 1 Jika n = 0, return nilai m sebagai hasil dan stop.
+Jika tidak, kembali ke Step 2
+
+Step 2 Bagi nilai m dengan n, masukan nilai sisanya ke r.
+
+Step 3 Masukan nilai n ke m dan nilai r ke n.
+Kembali ke Step 1.
+
+Pseudocode:
+While n ≠ 0 do
+r ← m mod n
+m ← m
+n ← r
+return m
+
+Cari nilai KPK dari 3 dan 4!
+Tentukan algoritma dan pseudocodenya:
+
+gcd(3,4)=gcd(4,3)=gcd(3,1)=gcd(1,0) = 1
+
+lcm(3,4)= 3.4 / 1 = 12
+
+
+
